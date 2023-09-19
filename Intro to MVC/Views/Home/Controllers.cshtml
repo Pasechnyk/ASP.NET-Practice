@@ -1,0 +1,28 @@
+﻿@{
+    ViewData["Title"] = "Controllers";
+}
+
+<h1>Controller</h1>
+
+<div>
+    <p>
+        A controller is used to define and group a set of actions. An action (or action method) is a method on a controller which
+        handles requests. Controllers logically group similar actions together. This aggregation of actions allows common sets
+        of rules, such as routing, caching, and authorization, to be applied collectively. Requests are mapped to actions through routing. Controllers are activated and disposed on a per request basis.
+    </p>
+
+    <h4>By convention, controller classes:</h4>
+
+    <ul>
+        <li>Reside in the project's root-level Controllers folder.</li>
+        <li>Inherit from Microsoft.AspNetCore.Mvc.Controller.</li>
+    </ul>
+
+    <p>A controller is an instantiable class, usually public, in which at least one of the following conditions is true:</p>
+
+    <ul>
+        <li>The class name is suffixed with Controller.</li>
+        <li>The class inherits from a class whose name is suffixed with Controller.</li>
+        <li>The [Controller] attribute is applied to the class.</li>
+    </ul>
+</div>
