@@ -1,0 +1,30 @@
+C:\Users\Win10\source\repos\Intro to MVC\Intro to MVC\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Win10\source\repos\Intro to MVC\Intro to MVC\bin\Debug\net6.0\appsettings.json
+C:\Users\Win10\source\repos\Intro to MVC\Intro to MVC\bin\Debug\net6.0\Intro to MVC.staticwebassets.runtime.json
+C:\Users\Win10\source\repos\Intro to MVC\Intro to MVC\bin\Debug\net6.0\Intro to MVC.exe
+C:\Users\Win10\source\repos\Intro to MVC\Intro to MVC\bin\Debug\net6.0\Intro to MVC.deps.json
+C:\Users\Win10\source\repos\Intro to MVC\Intro to MVC\bin\Debug\net6.0\Intro to MVC.runtimeconfig.json
+C:\Users\Win10\source\repos\Intro to MVC\Intro to MVC\bin\Debug\net6.0\Intro to MVC.dll
+C:\Users\Win10\source\repos\Intro to MVC\Intro to MVC\bin\Debug\net6.0\Intro to MVC.pdb
+C:\Users\Win10\source\repos\Intro to MVC\Intro to MVC\obj\Debug\net6.0\Intro to MVC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Win10\source\repos\Intro to MVC\Intro to MVC\obj\Debug\net6.0\Intro to MVC.AssemblyInfoInputs.cache
+C:\Users\Win10\source\repos\Intro to MVC\Intro to MVC\obj\Debug\net6.0\Intro to MVC.AssemblyInfo.cs
+C:\Users\Win10\source\repos\Intro to MVC\Intro to MVC\obj\Debug\net6.0\Intro to MVC.csproj.CoreCompileInputs.cache
+C:\Users\Win10\source\repos\Intro to MVC\Intro to MVC\obj\Debug\net6.0\Intro to MVC.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Win10\source\repos\Intro to MVC\Intro to MVC\obj\Debug\net6.0\Intro to MVC.RazorAssemblyInfo.cache
+C:\Users\Win10\source\repos\Intro to MVC\Intro to MVC\obj\Debug\net6.0\Intro to MVC.RazorAssemblyInfo.cs
+C:\Users\Win10\source\repos\Intro to MVC\Intro to MVC\obj\Debug\net6.0\staticwebassets\msbuild.Intro to MVC.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Win10\source\repos\Intro to MVC\Intro to MVC\obj\Debug\net6.0\staticwebassets\msbuild.build.Intro to MVC.props
+C:\Users\Win10\source\repos\Intro to MVC\Intro to MVC\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Intro to MVC.props
+C:\Users\Win10\source\repos\Intro to MVC\Intro to MVC\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Intro to MVC.props
+C:\Users\Win10\source\repos\Intro to MVC\Intro to MVC\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Win10\source\repos\Intro to MVC\Intro to MVC\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Win10\source\repos\Intro to MVC\Intro to MVC\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Win10\source\repos\Intro to MVC\Intro to MVC\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Win10\source\repos\Intro to MVC\Intro to MVC\obj\Debug\net6.0\scopedcss\bundle\Intro to MVC.styles.css
+C:\Users\Win10\source\repos\Intro to MVC\Intro to MVC\obj\Debug\net6.0\scopedcss\projectbundle\Intro to MVC.bundle.scp.css
+C:\Users\Win10\source\repos\Intro to MVC\Intro to MVC\obj\Debug\net6.0\Intro to MVC.dll
+C:\Users\Win10\source\repos\Intro to MVC\Intro to MVC\obj\Debug\net6.0\refint\Intro to MVC.dll
+C:\Users\Win10\source\repos\Intro to MVC\Intro to MVC\obj\Debug\net6.0\Intro to MVC.pdb
+C:\Users\Win10\source\repos\Intro to MVC\Intro to MVC\obj\Debug\net6.0\Intro to MVC.genruntimeconfig.cache
+C:\Users\Win10\source\repos\Intro to MVC\Intro to MVC\obj\Debug\net6.0\ref\Intro to MVC.dll
