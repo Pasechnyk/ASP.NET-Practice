@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using BusinessLogic.APIModels;
+using BusinessLogic.Dtos;
 using DataAccess.Data.Entities;
 using System;
 using System.Collections.Generic;
@@ -15,6 +16,8 @@ namespace BusinessLogic.Helpers
         {
             CreateMap<CreateMovieModel, Movie>();
             CreateMap<EditMovieModel, Movie>();
+            CreateMap<MovieDto, Movie>().ReverseMap();
         }
+
     }
 }

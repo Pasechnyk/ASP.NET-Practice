@@ -1,11 +1,15 @@
 ﻿using AutoMapper;
 using BusinessLogic.APIModels;
+using BusinessLogic.Dtos;
+using BusinessLogic.Exceptions;
 using BusinessLogic.Interfaces;
 using DataAccess.Data;
 using DataAccess.Data.Entities;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -32,7 +36,7 @@ namespace BusinessLogic.Services
         {
             var item = context.Movies.Find(id);
 
-            if (item == null) { return; }
+            if (item == null) throw new HttpException("Movie with Id not found!", HttpStatusCode.NotFound);
 
             context.Movies.Remove(item);
             context.SaveChanges();
@@ -49,13 +53,13 @@ namespace BusinessLogic.Services
             return context.Movies.ToList();
         }
 
-        public Movie? Get(int id)
+        public MovieDto? Get(int id)
         {
             var item = context.Movies.Find(id);
 
-            if (item == null) return null;
+            if (item == null) throw new HttpException("Movie with Id not found!", HttpStatusCode.NotFound);
 
-            return item;
+            return mapper.Map<MovieDto>(item);
         }
     }
 }
