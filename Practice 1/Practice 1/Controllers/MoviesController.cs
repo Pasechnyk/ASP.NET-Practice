@@ -1,9 +1,11 @@
 ﻿using BusinessLogic.APIModels;
 using BusinessLogic.Interfaces;
 using DataAccess.Data;
-using DataAccess.Data.Entities;
+using BusinessLogic.Entities;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 
 namespace Practice_1.Controllers
 {
@@ -18,7 +20,8 @@ namespace Practice_1.Controllers
             this.service = service;
         }
 
-        [HttpGet]
+        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
+        [HttpGet("all")]
         public IActionResult Get()
         {
             return Ok(service.Get()); 
@@ -50,6 +53,7 @@ namespace Practice_1.Controllers
             return Ok();
         }
 
+        [Authorize]
         [HttpDelete]
         public IActionResult Delete(int id)
         { 

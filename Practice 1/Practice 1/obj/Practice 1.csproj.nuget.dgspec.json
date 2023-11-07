@@ -18,16 +18,20 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net7.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
-            "projectReferences": {}
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "F:\\ASP.Net\\API\\Practice 1\\BusinessLogic\\BusinessLogic.csproj": {
+                "projectPath": "F:\\ASP.Net\\API\\Practice 1\\BusinessLogic\\BusinessLogic.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -37,8 +41,8 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "dependencies": {
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
@@ -103,20 +107,16 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net7.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
-            "projectReferences": {
-              "D:\\ASP.Net\\CinemaProject\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "D:\\ASP.Net\\CinemaProject\\DataAccess\\DataAccess.csproj"
-              }
-            }
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
           }
         },
         "warningProperties": {
@@ -126,8 +126,8 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "dependencies": {
             "AutoMapper": {
               "target": "Package",
@@ -137,13 +137,29 @@
               "target": "Package",
               "version": "[12.0.1, )"
             },
-            "Microsoft.AspNet.Identity.Owin": {
+            "Microsoft.AspNetCore.Identity.UI": {
               "target": "Package",
-              "version": "[2.2.4, )"
+              "version": "[7.0.13, )"
             },
-            "Microsoft.AspNetCore.Identity": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
               "target": "Package",
-              "version": "[2.2.0, )"
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Identity.Core": {
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
+            "Microsoft.Extensions.Identity.Stores": {
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.24.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.24.0, )"
             }
           },
           "imports": [
@@ -212,6 +228,10 @@
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[12.0.1, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[7.0.13, )"
             },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
