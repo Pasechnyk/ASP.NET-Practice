@@ -1,7 +1,7 @@
 ﻿using AutoMapper;
 using BusinessLogic.APIModels;
 using BusinessLogic.Dtos;
-using DataAccess.Data.Entities;
+using BusinessLogic.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;

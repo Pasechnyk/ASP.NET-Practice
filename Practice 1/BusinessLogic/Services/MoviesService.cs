@@ -1,11 +1,9 @@
 ﻿using AutoMapper;
 using BusinessLogic.APIModels;
 using BusinessLogic.Dtos;
+using BusinessLogic.Entities;
 using BusinessLogic.Exceptions;
 using BusinessLogic.Interfaces;
-using DataAccess.Data;
-using DataAccess.Data.Entities;
-using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,47 +15,51 @@ namespace BusinessLogic.Services
 {
     public class MoviesService : IMoviesService
     {
-        private readonly CinemaDbContext context;
+        //private readonly CinemaDbContext context;
+        private readonly IRepository<Movie> moviesRepo;
         private readonly IMapper mapper;
 
-        public MoviesService(CinemaDbContext context, IMapper mapper)
+        public MoviesService(IRepository<Movie> moviesRepo, IMapper mapper)
         {
-            this.context = context;
+            this.moviesRepo = moviesRepo;
             this.mapper = mapper;
         }
 
         public void Create(CreateMovieModel movie)
         {
-            context.Movies.Add(mapper.Map<Movie>(movie));
-            context.SaveChanges();
+            moviesRepo.Insert(mapper.Map<Movie>(movie));
+            moviesRepo.Save();
         }
 
         public void Delete(int id)
         {
-            var item = context.Movies.Find(id);
+            var item = moviesRepo.GetByID(id);
 
-            if (item == null) throw new HttpException("Movie with Id not found!", HttpStatusCode.NotFound);
+            if (item == null)
+            { throw new HttpException("Movie with this Id was not found!", HttpStatusCode.NotFound); }
 
-            context.Movies.Remove(item);
-            context.SaveChanges();
+            moviesRepo.Delete(item);
+            moviesRepo.Save();
         }
 
         public void Edit(EditMovieModel movie)
         {
-            context.Movies.Update(mapper.Map<Movie>(movie));
-            context.SaveChanges();
+            moviesRepo.Update(mapper.Map<Movie>(movie));
+            moviesRepo.Save();
         }
 
-        public List<Movie> Get()
+        public List<MovieDto> Get()
         {
-            return context.Movies.ToList();
+            var items = moviesRepo.Get(includeProperties: "Genre");
+            return mapper.Map<List<MovieDto>>(items);
         }
 
         public MovieDto? Get(int id)
         {
-            var item = context.Movies.Find(id);
+            var item = moviesRepo.GetByID(id);
 
-            if (item == null) throw new HttpException("Movie with Id not found!", HttpStatusCode.NotFound);
+            if (item == null)
+            { throw new HttpException("Movie with this Id was not found!", HttpStatusCode.NotFound); }
 
             return mapper.Map<MovieDto>(item);
         }

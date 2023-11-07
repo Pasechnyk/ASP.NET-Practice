@@ -16,14 +16,11 @@ C:\Users\dev\source\repos\Practice 1\BusinessLogic\obj\Debug\net6.0\ref\Business
 F:\ASP.Net\API\Practice 1\BusinessLogic\bin\Debug\net6.0\BusinessLogic.deps.json
 F:\ASP.Net\API\Practice 1\BusinessLogic\bin\Debug\net6.0\BusinessLogic.dll
 F:\ASP.Net\API\Practice 1\BusinessLogic\bin\Debug\net6.0\BusinessLogic.pdb
-F:\ASP.Net\API\Practice 1\BusinessLogic\bin\Debug\net6.0\DataAccess.dll
-F:\ASP.Net\API\Practice 1\BusinessLogic\bin\Debug\net6.0\DataAccess.pdb
 F:\ASP.Net\API\Practice 1\BusinessLogic\obj\Debug\net6.0\BusinessLogic.csproj.AssemblyReference.cache
 F:\ASP.Net\API\Practice 1\BusinessLogic\obj\Debug\net6.0\BusinessLogic.GeneratedMSBuildEditorConfig.editorconfig
 F:\ASP.Net\API\Practice 1\BusinessLogic\obj\Debug\net6.0\BusinessLogic.AssemblyInfoInputs.cache
 F:\ASP.Net\API\Practice 1\BusinessLogic\obj\Debug\net6.0\BusinessLogic.AssemblyInfo.cs
 F:\ASP.Net\API\Practice 1\BusinessLogic\obj\Debug\net6.0\BusinessLogic.csproj.CoreCompileInputs.cache
-F:\ASP.Net\API\Practice 1\BusinessLogic\obj\Debug\net6.0\BusinessLogic.csproj.CopyComplete
 F:\ASP.Net\API\Practice 1\BusinessLogic\obj\Debug\net6.0\BusinessLogic.dll
 F:\ASP.Net\API\Practice 1\BusinessLogic\obj\Debug\net6.0\refint\BusinessLogic.dll
 F:\ASP.Net\API\Practice 1\BusinessLogic\obj\Debug\net6.0\BusinessLogic.pdb
